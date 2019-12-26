@@ -1,0 +1,27 @@
+package main
+
+//package main_
+
+import "fmt"
+
+func main() {
+	// var card string = "Ace of Spades" card := "Ace of Spades"  (and then we can use it like) card = "King"
+	//card := newCard()
+	//cards := []string{"Ace of Diamonds", newCard()}
+	cards := deck{"Ace of Diamonds", newCard()} // go run  main.go deck.go
+	cards = append(cards, "six of Spades")
+	// print all
+	fmt.Println(cards)
+	fmt.Println("*******From main.go**********")
+	// for loop
+	for i, cards := range cards {
+		fmt.Println(i, cards)
+	}
+	fmt.Println("*******From deck.go**********")
+	// run custom loop
+	cards.print()
+}
+
+func newCard() string {
+	return "Five of diamonds"
+}
