@@ -1,6 +1,10 @@
-# Learn-golang-basics-to-advance . https://golang.org/
+# Learn-golang-basics-to-advance . 
 
-Go is a tool for managing Go source code. https://play.golang.org/
+Useful links
+	https://golang.org/
+	https://play.golang.org/
+
+Go is a tool for managing Go source code. 
 
 Usage:
 
